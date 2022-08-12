@@ -1,0 +1,13 @@
+.titlebox1{
+    font-family: 'Inter', sans-serif;
+    transform: translate(-9px, -9px);
+    height: 117px;
+    width: 30%;
+    border: solid black;
+}
+
+.webtitle{
+    transform: translate(10px, -15px);
+    font-size: 30px;
+    vertical-align: middle;
+}
