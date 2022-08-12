@@ -3,8 +3,59 @@ body{
 }
 
 .recipeimage{
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    width: 35%;
+    float: left;
+    transform: translateX(-10px);
+}
+
+.recipetitle{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    float: right;
+    width: 64.5%;
+    color: rgba(212, 200, 176, 1);
+}
+
+.recipebody{
+    width: 100%;
+    display: flex;
+    transform: translateX(-10px);
+    background-color: rgba(125, 125, 125, 1);
+    padding-bottom: 50px;
+}
+
+.ingredientsbox{
+    width: 100%;
+    transform: translateX(-10px);
+}
+
+.subheading{
+    text-align: center;
+    padding-left: 20px;
+    font-size: 60px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+
+.listbox{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-left: 50px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+li::marker{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+li span{
+    position: relative;
+    left: 20px;
 }
